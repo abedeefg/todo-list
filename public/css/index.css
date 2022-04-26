@@ -1,0 +1,122 @@
+html {
+  background-color: #E4E9FD;
+  background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
+  min-height: 745px;
+  font-family: 'helvetica neue';
+}
+
+.box{
+  position: relative;   
+  max-width: 500px;
+  margin: 50px auto;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  padding: 15px;
+}
+
+#heading {
+  background-color: #6f36d3;
+  max-width: 400px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  margin: 50px auto;
+  padding: 10px;
+  color: white;
+}
+
+.add-task{
+  background-color: #6e2ddd;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  width: 50%;
+  margin: 0px auto;
+  position: relative;
+  top:35px;
+  padding: 10px;
+}
+.add-task a{
+  color:white;
+  
+}
+.task-list{   
+  height: 30px;
+  text-decoration: none;
+
+  height: 45px;
+  line-height: 45px;
+  margin-bottom: 8px;
+  background: #f2f2f2;
+  border-radius: 3px;
+  padding: 0 15px;
+  cursor: default;
+  overflow: hidden;
+  vertical-align: middle;
+}
+.task-list a{
+  text-align: center;
+}
+ul{
+  padding: 0px;
+}
+.complete{
+  vertical-align: middle;
+  width: 50px;
+}
+.delete{
+  color: white;
+	background: #a52a2a;
+	padding: 1px 6px;
+	border-radius: 3px;
+	text-decoration: none;
+}
+a{
+  text-decoration: none;
+}
+.title{
+  width: 50px;
+}
+table {
+    width: 100%;
+    margin: 0px 5px 0px 0px;
+    border-collapse: collapse;
+    text-align: center;
+    min-width: 392px;
+}
+
+.table-head{
+	font-size: 25px;
+	color: black;
+  text-align: center;
+  text-decoration: solid;
+  margin-bottom: 10px;
+}
+
+tbody tr {
+  height: 45px;  
+  margin-bottom: 8px;
+  background: #f2f2f2;
+  border-radius: 3px;
+  padding: 0 15px;  
+}
+
+th, td{
+	border: none;
+    height: 30px;
+    padding: 2px;
+    font-size: 19px;
+    text-align: center;
+}
+
+tbody tr:hover {
+	background: #E9E9E9;
+}
+
+.alert{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
